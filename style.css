@@ -8,14 +8,26 @@ body{
 }
 
 header{ 
-    background-color: rgb(42, 130, 165);
-    max-width:100%;
-    height: 100px;
+    background-color: rgb(107, 105, 224);
+    max-width:100vw;
+    height: 8vh;
     display: flex;
     justify-content: space-between;
-    color: rgb(0, 205, 195);
+    color: rgb(153, 105, 197);
     align-items: center;  
     padding: 0 100px;
+}
+
+#nome-logo{ 
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 40px;
+    color: #efd5ff;
+}
+span{
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(174, 219, 189);
 }
 ul{
     display: flex;
@@ -28,35 +40,45 @@ ul{
     color: #fff;
     padding: 5px;
     transition: 0.3s;
+    font-size: 20px;
+    font-weight:500;
 }
 .menu:hover{
-    color: rgba(59, 166, 228, 0.651);
+    color: rgba(136, 122, 211, 0.651);
     background-color: rgb(174, 219, 189);
     border-radius: 5px;
-    border: #d6871f;
+    border: #8d1fd6;
     box-shadow: 5px 5px 5px #fff;
     opacity: 90%;
-
-}
-#nome-logo{
-    margin-left: 40px;
 }
 .banner-principal{
 
     text-align: center;
     padding: 40px 200px;
+    background-image:linear-gradient( #efd5ff, #515ada );
+    color: rgb(157, 86, 224);
+    height: 35vh;
     
 }
 h1{
-    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 25px;
 }
 p{
     margin-bottom: 30px;
+    font-size: 25px;
 }
 #btn-ver-livros{
-   background-color: rgba(59, 166, 228, 0.651);
+   background-color: rgba(94, 103, 231, 0.651);
    text-decoration: none;
    color: #fff;
    padding: 20px;
    border-radius: 10px;
+   
+}
+#btn-ver-livros:hover {
+    background-color: rgb(221, 197, 241);
+    border: none;
+ 
 }

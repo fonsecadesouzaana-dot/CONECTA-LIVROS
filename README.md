@@ -1,1 +1,2 @@
 # CONECTA-LIVROS
+ rgb(179, 176, 230);
