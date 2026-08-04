@@ -82,3 +82,36 @@ p{
     border: none;
  
 }
+.foto-livro{
+    max-width: 15vw;
+
+}
+.grade-livro{
+    max-width: 80vw;
+    margin: 20px auto;
+
+}
+.area-titulo{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0px;
+    margin-bottom: 70px;
+}
+.card-livro{
+width: 300px;
+text-align: center;
+border-radius: 6px;
+padding-top: 30px;
+box-shadow: 0px 0px 10px rgba(94, 103, 231, 0.651);
+overflow: hidden;
+}
+.info-livro{
+    padding-top: 20px;
+}
+.btn-ver-livros{
+    background-color: rgba(136, 122, 211, 0.651);
+    padding: 20px;
+    color: var(#efd5ff);
+    border: none;
+    border-radius: 5px;
+}
