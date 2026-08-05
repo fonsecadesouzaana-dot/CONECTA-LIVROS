@@ -78,9 +78,7 @@ p{
    
 }
 #btn-ver-livros:hover {
-    background-color: rgb(221, 197, 241);
-    border: none;
- 
+    background-color: #efd5ff;
 }
 .foto-livro{
     max-width: 15vw;
@@ -89,6 +87,10 @@ p{
 .grade-livro{
     max-width: 80vw;
     margin: 20px auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .area-titulo{
@@ -108,10 +110,33 @@ overflow: hidden;
 .info-livro{
     padding-top: 20px;
 }
-.btn-ver-livros{
+.btn-livro{
     background-color: rgba(136, 122, 211, 0.651);
     padding: 20px;
     color: var(#efd5ff);
     border: none;
     border-radius: 5px;
+}
+.btn-livro:hover{
+    background-color: rgb(174, 219, 189);
+}
+.categoria-livro{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(136, 122, 211, 0.651);      
+    background-color: #efd5ff;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.titulo-livro{
+    font-size: 25px;
+    color: #8d1fd6;
+    padding: 15px 0;
+
+}
+.autores-livro{
+font-size: 16px;
+margin-bottom: 15px;
+
 }
