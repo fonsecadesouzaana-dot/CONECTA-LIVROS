@@ -140,3 +140,111 @@ font-size: 16px;
 margin-bottom: 15px;
 
 }
+/* Seção como funciona */
+
+.ajuda{
+    background-image: linear-gradient(#efd5ff,#8d1fd6);
+    padding: 60px 20px;
+}
+
+.ajuda h2 {
+    color: var(#8d1fd6);
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 35px;
+}
+
+.todos-passos{
+    display: flex;
+    justify-content: center;
+    max-width: 85vw;
+    margin: 0 auto;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.passo{
+    width: 25vw;
+}
+
+.numero-passo{
+    font-size: 35px;
+    color: var rgba(136, 122, 211, 0.651);
+
+}
+
+.passo h3 {
+    font-size: 23px;
+    color: var(#8d1fd6);
+    font-weight: 600;
+}
+
+.passo p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+}
+
+footer{    
+    background-image: linear-gradient(#efd5ff);
+}
+
+.footer-container{
+    margin: 0 auto;
+    width: 80vw;
+    color: rgba(94, 103, 231, 0.651);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-coluna{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    background-color:#8d1fd6;
+    color: rgba(94, 103, 231, 0.651);
+    padding: 10px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.footer-coluna p{
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+.footer-coluna{
+    display: flex;
+    flex-direction: column;
+    max-width: 28vw;
+}
+.footer-coluna ul{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 15px;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color:  rgba(94, 103, 231, 0.651);
+}
+.footer-coluna h4{
+    color: #8d1fd6;
+}
+.footer-social{
+padding: 15px;
+}
+.footer-linha{
+    max-width: 80vw;
+    margin: 20px auto;
+    border: 1px solid #8d1fd6;
+}
+.footer-copy{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
