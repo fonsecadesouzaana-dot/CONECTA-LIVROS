@@ -5,6 +5,7 @@ body{
   font-weight: 400;
   font-style: normal;
 
+
 }
 
 header{ 
@@ -148,11 +149,12 @@ margin-bottom: 15px;
 }
 
 .ajuda h2 {
-    color: var(#8d1fd6);
+    color: #8d1fd6;
     text-align: center;
     margin-bottom: 40px;
     font-size: 35px;
 }
+
 
 .todos-passos{
     display: flex;
@@ -229,13 +231,20 @@ footer{
 }
 a{
     text-decoration: none;
-    color:  rgba(94, 103, 231, 0.651);
+    color:  #8d1fd6
 }
 .footer-coluna h4{
     color: #8d1fd6;
 }
 .footer-social{
 padding: 15px;
+}
+.footer-social i{
+    font-size: 32px;
+}
+.footer-social i :hover{
+    color: #8d1fd6;
+    transform: scale(1.1);
 }
 .footer-linha{
     max-width: 80vw;
